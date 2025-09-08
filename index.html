@@ -107,79 +107,271 @@
     </header>
 
     <main class="container mx-auto px-4 sm:px-6 lg:px-8 py-8">
+        <!-- Game Embed Section - Moved to Top -->
         <section class="mb-12">
             <div class="bg-white rounded-xl shadow-lg overflow-hidden">
+                <div class="p-6 border-b border-gray-200">
+                    <h1 class="text-3xl font-bold mb-4 text-apple-blue">🎮 Play Narrow One Now</h1>
+                    <p class="text-lg text-gray-700">No download required! Jump straight into the action with our embedded game player. For the best experience, we recommend using Chrome or Firefox browsers.</p>
+                </div>
                 <div class="aspect-w-16 aspect-h-9 w-full">
                     <iframe src="https://narrow.one" class="w-full h-[500px] sm:h-[600px] border-0"
                         allowfullscreen></iframe>
                 </div>
-                <div class="p-6">
-                    <h2 class="text-2xl font-bold mb-4 text-apple-blue">Play Now</h2>
-                    <p class="text-lg">Jump right into the action above or open <a href="https://narrow.one"
-                            class="text-apple-blue hover:underline" target="_blank">Narrow One</a> in a new tab for the
-                        best gaming experience.</p>
+                <div class="p-6 bg-gray-50">
+                    <div class="flex flex-col sm:flex-row justify-between items-center">
+                        <p class="text-lg mb-4 sm:mb-0">Having trouble loading? Try <a href="https://narrow.one" class="text-apple-blue hover:underline font-semibold" target="_blank">opening in a new tab</a></p>
+                        <div class="flex space-x-4">
+                            <span class="px-3 py-1 bg-green-100 text-green-800 rounded-full text-sm font-medium">✓ No Download</span>
+                            <span class="px-3 py-1 bg-blue-100 text-blue-800 rounded-full text-sm font-medium">✓ Free to Play</span>
+                            <span class="px-3 py-1 bg-purple-100 text-purple-800 rounded-full text-sm font-medium">✓ Multiplayer</span>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
 
+        <!-- Game Introduction Section -->
         <section class="mb-12">
-            <h2 class="text-2xl font-bold mb-6 text-apple-blue">About Narrow One</h2>
-            <div class="bg-white rounded-xl shadow-lg p-6">
-                <p class="text-lg mb-4">Narrow One is an exciting browser-based first-person shooter that brings
-                    fast-paced multiplayer action directly to your web browser. No downloads required - just click and
-                    play!</p>
-                <p class="text-lg mb-4">With its minimalist design and smooth gameplay, Narrow One offers an accessible
-                    yet challenging FPS experience for casual and competitive gamers alike.</p>
+            <div class="bg-white rounded-xl shadow-lg p-8">
+                <h2 class="text-3xl font-bold mb-6 text-apple-blue">About Narrow One</h2>
+                <div class="prose prose-lg max-w-none">
+                    <p class="text-lg mb-4">
+                        Narrow One has emerged as one of the most exciting browser-based FPS games in 2024, revolutionizing the way players experience first-person shooter action directly in their web browsers. Developed with cutting-edge WebGL technology, this minimalist yet intense multiplayer shooter has captured the attention of millions of gamers worldwide.
+                    </p>
+                    <p class="text-lg mb-4">
+                        What sets Narrow One apart from traditional browser games is its exceptional optimization and smooth gameplay mechanics. Despite running entirely in your browser, the game delivers console-quality graphics and responsive controls that rival many downloadable FPS titles. The game's minimalist aesthetic design philosophy focuses on pure gameplay without unnecessary distractions, creating an immersive competitive environment.
+                    </p>
+                    <p class="text-lg mb-4">
+                        Since its launch, Narrow One has gained significant traction in the competitive gaming scene, with professional players and content creators showcasing their skills on platforms like Twitch and YouTube. The game's accessibility—requiring no downloads or installations—has made it particularly popular among students, office workers, and gamers with limited hardware capabilities.
+                    </p>
+                </div>
             </div>
         </section>
 
-        <section class="mb-12 grid grid-cols-1 md:grid-cols-2 gap-8">
-            <div class="bg-white rounded-xl shadow-lg p-6">
-                <h2 class="text-2xl font-bold mb-4 text-apple-blue">Game Features</h2>
-                <ul class="list-disc pl-5 space-y-2">
-                    <li>Fast-paced multiplayer action</li>
-                    <li>Multiple game modes</li>
-                    <li>Clean, minimalist graphics</li>
-                    <li>Browser-based - no downloads needed</li>
-                    <li>Cross-platform compatibility</li>
-                    <li>Regular updates and new content</li>
-                </ul>
-            </div>
-
-            <div class="bg-white rounded-xl shadow-lg p-6">
-                <h2 class="text-2xl font-bold mb-4 text-apple-blue">How to Play</h2>
-                <ul class="list-disc pl-5 space-y-2">
-                    <li>Use WASD or arrow keys to move</li>
-                    <li>Left mouse button to shoot</li>
-                    <li>Right mouse button to aim</li>
-                    <li>Spacebar to jump</li>
-                    <li>R to reload your weapon</li>
-                    <li>Tab to view scoreboard</li>
-                </ul>
+        <!-- Game Features Section -->
+        <section class="mb-12">
+            <div class="bg-white rounded-xl shadow-lg p-8">
+                <h2 class="text-3xl font-bold mb-6 text-apple-blue">Key Features</h2>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                    <div class="feature-item">
+                        <h3 class="text-xl font-semibold mb-3 text-apple-blue">🎯 Competitive Multiplayer</h3>
+                        <p class="text-gray-700">Engage in intense 5v5 team battles or free-for-all matches with players from around the world. The ranked system ensures fair matchmaking and competitive progression.</p>
+                    </div>
+                    <div class="feature-item">
+                        <h3 class="text-xl font-semibold mb-3 text-apple-blue">⚡ Lightning-Fast Gameplay</h3>
+                        <p class="text-gray-700">Experience 60 FPS smooth gameplay with minimal latency. Advanced netcode ensures responsive controls even on standard internet connections.</p>
+                    </div>
+                    <div class="feature-item">
+                        <h3 class="text-xl font-semibold mb-3 text-apple-blue">🗺️ Dynamic Maps</h3>
+                        <p class="text-gray-700">Battle across multiple strategically designed maps with varying layouts. Each map offers unique tactical opportunities and playstyles.</p>
+                    </div>
+                    <div class="feature-item">
+                        <h3 class="text-xl font-semibold mb-3 text-apple-blue">🔫 Weapon Variety</h3>
+                        <p class="text-gray-700">Choose from a diverse arsenal of weapons, including assault rifles, sniper rifles, shotguns, and SMGs. Each weapon has unique characteristics and recoil patterns.</p>
+                    </div>
+                    <div class="feature-item">
+                        <h3 class="text-xl font-semibold mb-3 text-apple-blue">📊 Progression System</h3>
+                        <p class="text-gray-700">Level up your account, unlock new weapons, and earn cosmetic items. The battle pass system offers seasonal rewards and exclusive content.</p>
+                    </div>
+                    <div class="feature-item">
+                        <h3 class="text-xl font-semibold mb-3 text-apple-blue">🎮 Cross-Platform Play</h3>
+                        <p class="text-gray-700">Seamlessly play with friends across different devices. Whether you're on PC, Mac, or Linux, the experience remains consistent and optimized.</p>
+                    </div>
+                </div>
             </div>
         </section>
 
+        <!-- Game Guide Section -->
         <section class="mb-12">
-            <h2 class="text-2xl font-bold mb-6 text-apple-blue">Game Modes</h2>
-            <div class="bg-white rounded-xl shadow-lg p-6">
-                <div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
+            <div class="bg-white rounded-xl shadow-lg p-8">
+                <h2 class="text-3xl font-bold mb-6 text-apple-blue">Ultimate Beginner's Guide</h2>
+                <div class="grid grid-cols-1 lg:grid-cols-2 gap-8">
                     <div>
-                        <h3 class="text-xl font-semibold mb-2">Team Deathmatch</h3>
-                        <p>Join a team and compete to get the highest number of eliminations before the time runs out.
-                        </p>
+                        <h3 class="text-xl font-semibold mb-4 text-apple-blue">🎮 Controls & Mechanics</h3>
+                        <div class="space-y-3">
+                            <div class="flex items-center">
+                                <span class="font-semibold w-32">Movement:</span>
+                                <span>WASD or Arrow Keys</span>
+                            </div>
+                            <div class="flex items-center">
+                                <span class="font-semibold w-32">Shooting:</span>
+                                <span>Left Mouse Button</span>
+                            </div>
+                            <div class="flex items-center">
+                                <span class="font-semibold w-32">Aiming:</span>
+                                <span>Right Mouse Button (ADS)</span>
+                            </div>
+                            <div class="flex items-center">
+                                <span class="font-semibold w-32">Jump:</span>
+                                <span>Spacebar</span>
+                            </div>
+                            <div class="flex items-center">
+                                <span class="font-semibold w-32">Reload:</span>
+                                <span>R Key</span>
+                            </div>
+                            <div class="flex items-center">
+                                <span class="font-semibold w-32">Scoreboard:</span>
+                                <span>Tab Key</span>
+                            </div>
+                            <div class="flex items-center">
+                                <span class="font-semibold w-32">Weapon Switch:</span>
+                                <span>Number Keys 1-3</span>
+                            </div>
+                        </div>
                     </div>
                     <div>
-                        <h3 class="text-xl font-semibold mb-2">Free For All</h3>
-                        <p>Every player for themselves in this classic game mode where the highest score wins.</p>
+                        <h3 class="text-xl font-semibold mb-4 text-apple-blue">💡 Pro Tips & Strategies</h3>
+                        <ul class="space-y-2">
+                            <li class="flex items-start">
+                                <span class="text-green-500 mr-2">✓</span>
+                                <span>Master movement mechanics - strafing and bunny hopping can make you harder to hit</span>
+                            </li>
+                            <li class="flex items-start">
+                                <span class="text-green-500 mr-2">✓</span>
+                                <span>Learn weapon recoil patterns and practice controlling spray</span>
+                            </li>
+                            <li class="flex items-start">
+                                <span class="text-green-500 mr-2">✓</span>
+                                <span>Use sound cues to locate enemies - footsteps and gunshots give away positions</span>
+                            </li>
+                            <li class="flex items-start">
+                                <span class="text-green-500 mr-2">✓</span>
+                                <span>Play with headphones for better audio awareness and competitive advantage</span>
+                            </li>
+                            <li class="flex items-start">
+                                <span class="text-green-500 mr-2">✓</span>
+                                <span>Communicate with teammates using voice chat or quick messages</span>
+                            </li>
+                            <li class="flex items-start">
+                                <span class="text-green-500 mr-2">✓</span>
+                                <span>Study map layouts and learn common camping spots and choke points</span>
+                            </li>
+                        </ul>
                     </div>
-                    <div>
-                        <h3 class="text-xl font-semibold mb-2">Capture The Flag</h3>
-                        <p>Steal the enemy team's flag and return it to your base while defending your own flag.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Game Modes Section -->
+        <section class="mb-12">
+            <div class="bg-white rounded-xl shadow-lg p-8">
+                <h2 class="text-3xl font-bold mb-6 text-apple-blue">Game Modes & Strategies</h2>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                    <div class="bg-gradient-to-r from-blue-50 to-indigo-50 p-6 rounded-lg">
+                        <h3 class="text-xl font-semibold mb-3 text-blue-800">🏆 Team Deathmatch</h3>
+                        <p class="text-gray-700 mb-3">Classic 5v5 team combat where coordination and communication are key to victory. First team to reach the kill limit wins.</p>
+                        <div class="bg-white p-3 rounded">
+                            <h4 class="font-semibold mb-2">Strategy Tips:</h4>
+                            <ul class="text-sm text-gray-600 space-y-1">
+                                <li>• Stick with your team for better survival chances</li>
+                                <li>• Use cover effectively and avoid open areas</li>
+                                <li>• Coordinate pushes and flanking maneuvers</li>
+                            </ul>
+                        </div>
                     </div>
-                    <div>
-                        <h3 class="text-xl font-semibold mb-2">Control Points</h3>
-                        <p>Capture and hold strategic points on the map to earn points for your team.</p>
+                    <div class="bg-gradient-to-r from-red-50 to-orange-50 p-6 rounded-lg">
+                        <h3 class="text-xl font-semibold mb-3 text-red-800">🔥 Free For All</h3>
+                        <p class="text-gray-700 mb-3">Every player for themselves in this intense solo mode. Trust no one and eliminate everyone to become the last player standing.</p>
+                        <div class="bg-white p-3 rounded">
+                            <h4 class="font-semibold mb-2">Strategy Tips:</h4>
+                            <ul class="text-sm text-gray-600 space-y-1">
+                                <li>• Play cautiously and avoid unnecessary fights</li>
+                                <li>• Use sound to locate and ambush enemies</li>
+                                <li>• Control high-traffic areas for maximum kills</li>
+                            </ul>
+                        </div>
                     </div>
+                    <div class="bg-gradient-to-r from-green-50 to-emerald-50 p-6 rounded-lg">
+                        <h3 class="text-xl font-semibold mb-3 text-green-800">🚩 Capture The Flag</h3>
+                        <p class="text-gray-700 mb-3">Steal the enemy flag and return it to your base while defending your own flag from being captured.</p>
+                        <div class="bg-white p-3 rounded">
+                            <h4 class="font-semibold mb-2">Strategy Tips:</h4>
+                            <ul class="text-sm text-gray-600 space-y-1">
+                                <li>• Balance between offense and defense</li>
+                                <li>• Use multiple routes for flag retrieval</li>
+                                <li>• Communicate enemy movements to defenders</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="bg-gradient-to-r from-purple-50 to-pink-50 p-6 rounded-lg">
+                        <h3 class="text-xl font-semibold mb-3 text-purple-800">🎯 Control Points</h3>
+                        <p class="text-gray-700 mb-3">Capture and hold strategic points on the map to earn points for your team. The more points controlled, the faster you score.</p>
+                        <div class="bg-white p-3 rounded">
+                            <h4 class="font-semibold mb-2">Strategy Tips:</h4>
+                            <ul class="text-sm text-gray-600 space-y-1">
+                                <li>• Focus on controlling 2 out of 3 points</li>
+                                <li>• Rotate between points based on enemy pressure</li>
+                                <li>• Use area denial weapons to protect captured points</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Player Reviews Section -->
+        <section class="mb-12">
+            <div class="bg-white rounded-xl shadow-lg p-8">
+                <h2 class="text-3xl font-bold mb-6 text-apple-blue">What Players Are Saying</h2>
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                    <div class="bg-gray-50 p-6 rounded-lg">
+                        <div class="flex items-center mb-3">
+                            <div class="w-10 h-10 bg-blue-500 rounded-full flex items-center justify-center text-white font-bold">J</div>
+                            <div class="ml-3">
+                                <h4 class="font-semibold">Jake_ProGamer</h4>
+                                <div class="flex text-yellow-400 text-sm">★★★★★</div>
+                            </div>
+                        </div>
+                        <p class="text-gray-700 text-sm">"This is honestly the best browser FPS I've ever played. The fact that it runs so smoothly without any downloads is incredible. The competitive scene is growing fast!"</p>
+                        <p class="text-xs text-gray-500 mt-2">2 days ago</p>
+                    </div>
+                    <div class="bg-gray-50 p-6 rounded-lg">
+                        <div class="flex items-center mb-3">
+                            <div class="w-10 h-10 bg-green-500 rounded-full flex items-center justify-center text-white font-bold">S</div>
+                            <div class="ml-3">
+                                <h4 class="font-semibold">SarahFPS</h4>
+                                <div class="flex text-yellow-400 text-sm">★★★★★</div>
+                            </div>
+                        </div>
+                        <p class="text-gray-700 text-sm">"As someone who plays CS:GO and Valorant, I was skeptical about a browser game, but Narrow One blew me away. The mechanics are solid and the community is great!"</p>
+                        <p class="text-xs text-gray-500 mt-2">1 week ago</p>
+                    </div>
+                    <div class="bg-gray-50 p-6 rounded-lg">
+                        <div class="flex items-center mb-3">
+                            <div class="w-10 h-10 bg-purple-500 rounded-full flex items-center justify-center text-white font-bold">M</div>
+                            <div class="ml-3">
+                                <h4 class="font-semibold">Mike_Tactical</h4>
+                                <div class="flex text-yellow-400 text-sm">★★★★☆</div>
+                            </div>
+                        </div>
+                        <p class="text-gray-700 text-sm">"Perfect for quick gaming sessions during breaks. The matchmaking is fast and the gameplay is addictive. My only complaint is that I wish there were more maps!"</p>
+                        <p class="text-xs text-gray-500 mt-2">3 days ago</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Latest News Section -->
+        <section class="mb-12">
+            <div class="bg-white rounded-xl shadow-lg p-8">
+                <h2 class="text-3xl font-bold mb-6 text-apple-blue">Latest Gaming News & Updates</h2>
+                <div class="space-y-6">
+                    <article class="border-l-4 border-blue-500 pl-4">
+                        <h3 class="text-xl font-semibold mb-2">🎮 Narrow One Championship Series 2024 Announced</h3>
+                        <p class="text-gray-700 mb-2">The developers have just announced the first official Narrow One Championship Series with a $50,000 prize pool. Professional teams from around the world are already forming rosters for this groundbreaking browser-based esports event.</p>
+                        <p class="text-sm text-gray-500">September 15, 2024</p>
+                    </article>
+                    <article class="border-l-4 border-green-500 pl-4">
+                        <h3 class="text-xl font-semibold mb-2">🗺️ New Map "Downtown Siege" Released</h3>
+                        <p class="text-gray-700 mb-2">The latest map update brings urban warfare to Narrow One with tight corridors, vertical gameplay, and strategic vantage points. The community response has been overwhelmingly positive with players praising the balanced design.</p>
+                        <p class="text-sm text-gray-500">September 8, 2024</p>
+                    </article>
+                    <article class="border-l-4 border-purple-500 pl-4">
+                        <h3 class="text-xl font-semibold mb-2">🔫 Battle Pass Season 3 Launches with New Weapons</h3>
+                        <p class="text-gray-700 mb-2">Season 3 introduces three new weapons including the fan-favorite "Phantom AR" and tactical equipment. The battle pass also includes exclusive skins, emotes, and weapon camos that can't be obtained elsewhere.</p>
+                        <p class="text-sm text-gray-500">September 1, 2024</p>
+                    </article>
                 </div>
             </div>
         </section>

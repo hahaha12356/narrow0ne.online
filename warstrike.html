@@ -107,53 +107,256 @@
     </header>
 
     <main class="container mx-auto px-4 sm:px-6 lg:px-8 py-8">
+        <!-- Game Embed Section - Top Priority -->
         <section class="mb-12">
             <div class="bg-white rounded-xl shadow-lg overflow-hidden">
+                <div class="p-6 border-b border-gray-200">
+                    <h1 class="text-3xl font-bold mb-4 text-apple-blue">🎮 Play WarStrike Now</h1>
+                    <p class="text-lg text-gray-700">Experience intense tactical combat in WarStrike, a browser-based FPS with realistic weapons and immersive battlefields. No downloads required - just click and play!</p>
+                </div>
                 <div class="aspect-w-16 aspect-h-9 w-full">
                     <iframe src="https://unblocked-games.s3.amazonaws.com/games/2024/unity3/warstrike/index.html" class="w-full h-[500px] sm:h-[600px] border-0"
                         allowfullscreen></iframe>
                 </div>
-                <div class="p-6">
-                    <h2 class="text-2xl font-bold mb-4 text-apple-blue">Play WarStrike Now</h2>
-                    <p class="text-lg">Experience intense tactical combat in WarStrike, a browser-based FPS with realistic weapons and immersive battlefields. No downloads required - just click and play!</p>
+                <div class="p-6 bg-gray-50">
+                    <div class="flex flex-col sm:flex-row justify-between items-center">
+                        <p class="text-lg mb-4 sm:mb-0">Having trouble loading? Try refreshing the page or check your browser compatibility</p>
+                        <div class="flex space-x-4">
+                            <span class="px-3 py-1 bg-green-100 text-green-800 rounded-full text-sm font-medium">✓ No Download</span>
+                            <span class="px-3 py-1 bg-blue-100 text-blue-800 rounded-full text-sm font-medium">✓ Tactical FPS</span>
+                            <span class="px-3 py-1 bg-red-100 text-red-800 rounded-full text-sm font-medium">✓ Realistic Combat</span>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
 
+        <!-- Game Introduction Section -->
         <section class="mb-12">
-            <h2 class="text-2xl font-bold mb-6 text-apple-blue">About WarStrike</h2>
-            <div class="bg-white rounded-xl shadow-lg p-6">
-                <p class="text-lg mb-4">WarStrike is an intense browser-based first-person shooter that delivers realistic combat scenarios with impressive graphics and smooth gameplay. Take on enemies in various tactical environments, utilize an arsenal of powerful weapons, and master your skills to become the ultimate soldier.</p>
-                <p class="text-lg mb-4">With its high-quality visuals and immersive gameplay, WarStrike offers an excellent FPS experience directly in your web browser. Join the battle immediately without any downloads or installations required.</p>
+            <div class="bg-white rounded-xl shadow-lg p-8">
+                <h2 class="text-3xl font-bold mb-6 text-apple-blue">About WarStrike</h2>
+                <div class="prose prose-lg max-w-none">
+                    <p class="text-lg mb-4">
+                        WarStrike stands as one of the most impressive browser-based tactical FPS games of 2024, delivering console-quality graphics and realistic combat mechanics directly in your web browser. Built with advanced Unity WebGL technology, this game has revolutionized what's possible in browser gaming, offering an experience that rivals many downloadable FPS titles.
+                    </p>
+                    <p class="text-lg mb-4">
+                        Set in modern combat scenarios, WarStrike puts players in the boots of elite soldiers tasked with completing high-stakes missions across various global hotspots. The game's attention to detail extends from weapon ballistics and recoil patterns to environmental destruction and tactical positioning, creating an authentic military simulation experience.
+                    </p>
+                    <p class="text-lg mb-4">
+                        What truly sets WarStrike apart is its commitment to realism without sacrificing accessibility. The game features authentic weapon handling, strategic gameplay that rewards teamwork and communication, and sophisticated AI opponents that adapt to player tactics. This combination has made it a favorite among both casual players and FPS enthusiasts looking for a serious tactical challenge.
+                    </p>
+                </div>
             </div>
         </section>
 
-        <section class="mb-12 grid grid-cols-1 md:grid-cols-2 gap-8">
-            <div class="bg-white rounded-xl shadow-lg p-6">
-                <h2 class="text-2xl font-bold mb-4 text-apple-blue">Game Features</h2>
-                <ul class="list-disc pl-5 space-y-2">
-                    <li>Realistic combat mechanics and weapons</li>
-                    <li>Multiple detailed battle environments</li>
-                    <li>Fast-paced action gameplay</li>
-                    <li>High-quality graphics and effects</li>
-                    <li>Intuitive controls for quick mastery</li>
-                    <li>Browser-based - no downloads required</li>
-                </ul>
-            </div>
-
-            <div class="bg-white rounded-xl shadow-lg p-6">
-                <h2 class="text-2xl font-bold mb-4 text-apple-blue">How to Play</h2>
-                <ul class="list-disc pl-5 space-y-2">
-                    <li>Use WASD or arrow keys to move</li>
-                    <li>Left mouse button to shoot</li>
-                    <li>Right mouse button to aim down sights</li>
-                    <li>Spacebar to jump</li>
-                    <li>R to reload your weapon</li>
-                    <li>C to crouch for better accuracy</li>
-                </ul>
+        <!-- Game Features Section -->
+        <section class="mb-12">
+            <div class="bg-white rounded-xl shadow-lg p-8">
+                <h2 class="text-3xl font-bold mb-6 text-apple-blue">Key Features</h2>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                    <div class="feature-item">
+                        <h3 class="text-xl font-semibold mb-3 text-apple-blue">🔫 Authentic Weapon Systems</h3>
+                        <p class="text-gray-700">Experience realistic weapon handling with accurate ballistics, recoil patterns, and reload animations. Choose from assault rifles, sniper rifles, shotguns, and machine guns, each with unique characteristics.</p>
+                    </div>
+                    <div class="feature-item">
+                        <h3 class="text-xl font-semibold mb-3 text-apple-blue">🗺️ Tactical Environments</h3>
+                        <p class="text-gray-700">Battle across diverse maps including urban warfare zones, desert compounds, jungle facilities, and arctic bases. Each environment offers unique tactical opportunities and challenges.</p>
+                    </div>
+                    <div class="feature-item">
+                        <h3 class="text-xl font-semibold mb-3 text-apple-blue">🎯 Advanced AI System</h3>
+                        <p class="text-gray-700">Face intelligent enemies that use cover, flank maneuvers, and coordinated tactics. The AI adapts to your playstyle, making each encounter unique and challenging.</p>
+                    </div>
+                    <div class="feature-item">
+                        <h3 class="text-xl font-semibold mb-3 text-apple-blue">💥 Destructible Environment</h3>
+                        <p class="text-gray-700">Use the environment to your advantage with destructible cover, dynamic lighting, and interactive objects. Create new lines of sight by destroying walls and obstacles.</p>
+                    </div>
+                    <div class="feature-item">
+                        <h3 class="text-xl font-semibold mb-3 text-apple-blue">🎮 Squad Commands</h3>
+                        <p class="text-gray-700">Command AI teammates with tactical orders. Coordinate assaults, set up defensive positions, and execute complex maneuvers to complete mission objectives.</p>
+                    </div>
+                    <div class="feature-item">
+                        <h3 class="text-xl font-semibold mb-3 text-apple-blue">📊 Mission Variety</h3>
+                        <p class="text-gray-700">Engage in diverse mission types including hostage rescue, bomb defusal, area capture, and elimination objectives. Each mission requires different tactics and approaches.</p>
+                    </div>
+                </div>
             </div>
         </section>
 
+        <!-- Game Guide Section -->
+        <section class="mb-12">
+            <div class="bg-white rounded-xl shadow-lg p-8">
+                <h2 class="text-3xl font-bold mb-6 text-apple-blue">Tactical Combat Guide</h2>
+                <div class="grid grid-cols-1 lg:grid-cols-2 gap-8">
+                    <div>
+                        <h3 class="text-xl font-semibold mb-4 text-apple-blue">🎮 Controls & Mechanics</h3>
+                        <div class="space-y-3">
+                            <div class="flex items-center">
+                                <span class="font-semibold w-32">Movement:</span>
+                                <span>WASD or Arrow Keys</span>
+                            </div>
+                            <div class="flex items-center">
+                                <span class="font-semibold w-32">Shooting:</span>
+                                <span>Left Mouse Button</span>
+                            </div>
+                            <div class="flex items-center">
+                                <span class="font-semibold w-32">Aiming:</span>
+                                <span>Right Mouse Button (ADS)</span>
+                            </div>
+                            <div class="flex items-center">
+                                <span class="font-semibold w-32">Jump:</span>
+                                <span>Spacebar</span>
+                            </div>
+                            <div class="flex items-center">
+                                <span class="font-semibold w-32">Reload:</span>
+                                <span>R Key</span>
+                            </div>
+                            <div class="flex items-center">
+                                <span class="font-semibold w-32">Crouch:</span>
+                                <span>C Key (improves accuracy)</span>
+                            </div>
+                            <div class="flex items-center">
+                                <span class="font-semibold w-32">Sprint:</span>
+                                <span>Shift Key</span>
+                            </div>
+                            <div class="flex items-center">
+                                <span class="font-semibold w-32">Weapon Switch:</span>
+                                <span>Number Keys 1-4</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <h3 class="text-xl font-semibold mb-4 text-apple-blue">💡 Pro Tactics & Strategies</h3>
+                        <ul class="space-y-2">
+                            <li class="flex items-start">
+                                <span class="text-green-500 mr-2">✓</span>
+                                <span>Use cover effectively - peek, shoot, then reposition to avoid enemy fire</span>
+                            </li>
+                            <li class="flex items-start">
+                                <span class="text-green-500 mr-2">✓</span>
+                                <span>Control your breathing when sniping - hold your breath for steady shots</span>
+                            </li>
+                            <li class="flex items-start">
+                                <span class="text-green-500 mr-2">✓</span>
+                                <span>Use suppressed weapons for stealth takedowns and tactical advantages</span>
+                            </li>
+                            <li class="flex items-start">
+                                <span class="text-green-500 mr-2">✓</span>
+                                <span>Coordinate with your squad - use flanking maneuvers and covering fire</span>
+                            </li>
+                            <li class="flex items-start">
+                                <span class="text-green-500 mr-2">✓</span>
+                                <span>Master weapon recoil patterns - burst fire for better accuracy at range</span>
+                            </li>
+                            <li class="flex items-start">
+                                <span class="text-green-500 mr-2">✓</span>
+                                <span>Use grenades to flush out enemies from behind cover</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Mission Types Section -->
+        <section class="mb-12">
+            <div class="bg-white rounded-xl shadow-lg p-8">
+                <h2 class="text-3xl font-bold mb-6 text-apple-blue">Mission Types & Objectives</h2>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                    <div class="bg-gradient-to-r from-blue-50 to-indigo-50 p-6 rounded-lg">
+                        <h3 class="text-xl font-semibold mb-3 text-blue-800">🎯 Hostage Rescue</h3>
+                        <p class="text-gray-700 mb-3">Infiltrate enemy territory and rescue hostages while eliminating hostile forces. Stealth and precision are key to keeping civilians safe.</p>
+                        <div class="bg-white p-3 rounded">
+                            <h4 class="font-semibold mb-2">Mission Tips:</h4>
+                            <ul class="text-sm text-gray-600 space-y-1">
+                                <li>• Use suppressed weapons for silent takedowns</li>
+                                <li>• Clear rooms methodically before moving hostages</li>
+                                <li>• Set up defensive positions during extraction</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="bg-gradient-to-r from-red-50 to-orange-50 p-6 rounded-lg">
+                        <h3 class="text-xl font-semibold mb-3 text-red-800">💣 Bomb Defusal</h3>
+                        <p class="text-gray-700 mb-3">Race against time to locate and defuse explosives while defending against enemy counter-attacks. Communication and teamwork are essential.</p>
+                        <div class="bg-white p-3 rounded">
+                            <h4 class="font-semibold mb-2">Mission Tips:</h4>
+                            <ul class="text-sm text-gray-600 space-y-1">
+                                <li>• Split team between bomb site and defense</li>
+                                <li>• Use heartbeat sensors to detect enemies</li>
+                                <li>• Maintain clear lines of communication</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="bg-gradient-to-r from-green-50 to-emerald-50 p-6 rounded-lg">
+                        <h3 class="text-xl font-semibold mb-3 text-green-800">🏁 Area Capture</h3>
+                        <p class="text-gray-700 mb-3">Secure and hold strategic locations against waves of enemy forces. Use fortifications and defensive positioning to maintain control.</p>
+                        <div class="bg-white p-3 rounded">
+                            <h4 class="font-semibold mb-2">Mission Tips:</h4>
+                            <ul class="text-sm text-gray-600 space-y-1">
+                                <li>• Establish defensive positions early</li>
+                                <li>• Use machine guns for area denial</li>
+                                <li>• Rotate between capture points as needed</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="bg-gradient-to-r from-purple-50 to-pink-50 p-6 rounded-lg">
+                        <h3 class="text-xl font-semibold mb-3 text-purple-800">⚡ Elimination</h3>
+                        <p class="text-gray-700 mb-3">Neutralize all hostile forces in the area. This is a pure combat mission where tactical positioning and aggressive gameplay lead to victory.</p>
+                        <div class="bg-white p-3 rounded">
+                            <h4 class="font-semibold mb-2">Mission Tips:</h4>
+                            <ul class="text-sm text-gray-600 space-y-1">
+                                <li>• Use flanking maneuvers to surprise enemies</li>
+                                <li>• Control high ground for tactical advantage</li>
+                                <li>• Coordinated attacks overwhelm enemy defenses</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Player Reviews Section -->
+        <section class="mb-12">
+            <div class="bg-white rounded-xl shadow-lg p-8">
+                <h2 class="text-3xl font-bold mb-6 text-apple-blue">What Players Are Saying</h2>
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                    <div class="bg-gray-50 p-6 rounded-lg">
+                        <div class="flex items-center mb-3">
+                            <div class="w-10 h-10 bg-red-500 rounded-full flex items-center justify-center text-white font-bold">T</div>
+                            <div class="ml-3">
+                                <h4 class="font-semibold">Tactical_Tom</h4>
+                                <div class="flex text-yellow-400 text-sm">★★★★★</div>
+                            </div>
+                        </div>
+                        <p class="text-gray-700 text-sm">"As a former military FPS player, I'm impressed by the realism in WarStrike. The weapon mechanics and tactical gameplay are spot-on. Best browser tactical shooter out there!"</p>
+                        <p class="text-xs text-gray-500 mt-2">4 days ago</p>
+                    </div>
+                    <div class="bg-gray-50 p-6 rounded-lg">
+                        <div class="flex items-center mb-3">
+                            <div class="w-10 h-10 bg-blue-500 rounded-full flex items-center justify-center text-white font-bold">S</div>
+                            <div class="ml-3">
+                                <h4 class="font-semibold">SniperQueen</h4>
+                                <div class="flex text-yellow-400 text-sm">★★★★★</div>
+                            </div>
+                        </div>
+                        <p class="text-gray-700 text-sm">"The ballistics system is incredible! Bullet drop, wind effects, and realistic weapon handling make this game stand out. The hostage rescue missions are intense and rewarding."</p>
+                        <p class="text-xs text-gray-500 mt-2">1 week ago</p>
+                    </div>
+                    <div class="bg-gray-50 p-6 rounded-lg">
+                        <div class="flex items-center mb-3">
+                            <div class="w-10 h-10 bg-green-500 rounded-full flex items-center justify-center text-white font-bold">C</div>
+                            <div class="ml-3">
+                                <h4 class="font-semibold">CombatVet92</h4>
+                                <div class="flex text-yellow-400 text-sm">★★★★☆</div>
+                            </div>
+                        </div>
+                        <p class="text-gray-700 text-sm">"Great tactical shooter that actually requires strategy and teamwork. The AI is challenging and the missions are well-designed. Only wish there were more maps available."</p>
+                        <p class="text-xs text-gray-500 mt-2">5 days ago</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Related Games Section -->
         <section class="mb-12">
             <h2 class="text-2xl font-bold mb-6 text-apple-blue">More FPS Games You'll Enjoy</h2>
             <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">

@@ -1,0 +1,6 @@
+CLAUDE.md
+*.log
+*.tmp
+*.temp
+.DS_Store
+Thumbs.db
