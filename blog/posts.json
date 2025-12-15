@@ -1,0 +1,52 @@
+[
+  {
+    "title": "Narrow One Beginner’s Complete Guide: From First Login to First Win",
+    "slug": "narrow-one-beginners-complete-guide",
+    "category": "guides",
+    "category_label": "Beginner Guides",
+    "description": "Controls, settings, map basics and three goals for your first match.",
+    "date": "2025-12-15",
+    "readingTime": "7 min",
+    "cover": "/assets/images/narrow-one-cover.jpg"
+  },
+  {
+    "title": "Narrow One Game Modes: How to Win CTF, TDM, FFA and Control Points",
+    "slug": "narrow-one-game-modes-strategy",
+    "category": "advanced",
+    "category_label": "Advanced Tips",
+    "description": "Roles, rotations and actionable tactics for every mode.",
+    "date": "2025-12-15",
+    "readingTime": "6 min",
+    "cover": "/assets/images/narrow-one-cover.jpg"
+  },
+  {
+    "title": "Practical Archery Tips for Narrow One: Movement, Survival and Aiming",
+    "slug": "narrow-one-archery-tips",
+    "category": "advanced",
+    "category_label": "Advanced Tips",
+    "description": "Movement patterns, aiming rhythm and concise communication.",
+    "date": "2025-12-15",
+    "readingTime": "5 min",
+    "cover": "/assets/images/narrow-one-cover.jpg"
+  },
+  {
+    "title": "Narrow One Patch Notes & Update Analysis – December 2025",
+    "slug": "narrow-one-update-log-dec-2025",
+    "category": "news",
+    "category_label": "News & Updates",
+    "description": "Monthly recap, balance impact and recommended adjustments.",
+    "date": "2025-12-15",
+    "readingTime": "4 min",
+    "cover": "/assets/images/narrow-one-cover.jpg"
+  },
+  {
+    "title": "Love Narrow One? Try These Similar Shooters and Action Games",
+    "slug": "games-like-narrow-one",
+    "category": "recommendations",
+    "category_label": "Recommendations",
+    "description": "Closest feel picks and transition types for Narrow One fans.",
+    "date": "2025-12-15",
+    "readingTime": "5 min",
+    "cover": "/assets/images/narrow-one-cover.jpg"
+  }
+]

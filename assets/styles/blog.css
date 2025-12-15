@@ -1,0 +1,41 @@
+/* Base typography for blog articles */
+.blog-article {
+  color: #1f2937;
+  line-height: 1.8;
+  max-width: 860px;
+  margin: 0 auto;
+}
+.blog-article h1 { font-size: 2.0rem; margin: 0 0 1rem 0; color: #0f172a; }
+.blog-article h2 { font-size: 1.6rem; margin: 2rem 0 0.75rem 0; color: #0f172a; }
+.blog-article h3 { font-size: 1.25rem; margin: 1.25rem 0 0.5rem 0; color: #0f172a; }
+.blog-article p { margin: 0.75rem 0; font-size: 1rem; }
+.blog-article ul, .blog-article ol { margin: 0.75rem 0 0.75rem 1.25rem; }
+.blog-article li { margin: 0.35rem 0; }
+.blog-article a { color: #2563eb; text-decoration: none; }
+.blog-article a:hover { text-decoration: underline; }
+
+/* Tables */
+.blog-article table { width: 100%; border-collapse: collapse; margin: 0.75rem 0; font-size: 0.95rem; }
+.blog-article thead th { background: #f1f5f9; color: #0f172a; font-weight: 600; }
+.blog-article th, .blog-article td { border: 1px solid #e5e7eb; padding: 0.6rem 0.75rem; text-align: left; }
+
+/* Figures */
+.blog-article figure { margin: 0; }
+.blog-article img, .blog-article svg { display: block; max-width: 100%; height: auto; border-radius: 10px; }
+.blog-article figcaption { color: #64748b; font-size: 0.85rem; margin-top: 0.5rem; }
+
+/* Cards and panels */
+.panel { background: #ffffff; border-radius: 12px; box-shadow: 0 6px 18px rgba(0,0,0,0.08); padding: 1rem; }
+.panel + .panel { margin-top: 1rem; }
+
+/* Gallery */
+.gallery-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 14px; margin-top: 10px; }
+@media (max-width: 900px) { .gallery-grid { grid-template-columns: repeat(2, 1fr); } }
+@media (max-width: 640px) { .gallery-grid { grid-template-columns: 1fr; } }
+
+/* Responsive tweaks */
+@media (max-width: 640px) {
+  .blog-article { padding: 0 2px; }
+  .blog-article h1 { font-size: 1.6rem; }
+  .blog-article h2 { font-size: 1.35rem; }
+}

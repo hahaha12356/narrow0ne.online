@@ -1,0 +1,17 @@
+{
+  "narrow-one-beginners-complete-guide": [
+    {"src": "/assets/images/narrow-one-banner.svg", "alt": "Map lanes overview", "caption": "Basic lanes and safe routes for first matches"}
+  ],
+  "narrow-one-game-modes-strategy": [
+    {"src": "/assets/images/narrow-one-banner.svg", "alt": "Modes overview", "caption": "Objective-focused strategies across modes"}
+  ],
+  "narrow-one-archery-tips": [
+    {"src": "/assets/images/narrow-one-banner.svg", "alt": "Archery duels", "caption": "Timing-based aiming and movement rhythm"}
+  ],
+  "narrow-one-update-log-dec-2025": [
+    {"src": "/assets/images/narrow-one-banner.svg", "alt": "Update highlights", "caption": "Cover changes and draw consistency"}
+  ],
+  "games-like-narrow-one": [
+    {"src": "/assets/images/narrow-one-banner.svg", "alt": "Recommendations grid", "caption": "Top picks for Narrow One fans"}
+  ]
+}
