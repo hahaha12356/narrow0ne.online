@@ -4,3 +4,4 @@ CLAUDE.md
 *.temp
 .DS_Store
 Thumbs.db
+.gstack/
